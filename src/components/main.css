@@ -1,0 +1,54 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-fluid {
+  padding: 0px;
+}
+/*============sidebar css============*/
+
+/* profile card */
+.profile {
+  background-color: #353535;
+  padding-top: 10px;
+  padding-left: 10px;
+  display: flex;
+}
+
+.profile img {
+  width: 60px;
+  height: 60px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+.profile p {
+  color: white;
+  padding-top: 8px;
+}
+
+/* main items card */
+
+.sidebar_item {
+  background-color: #353535;
+  height: 100vh;
+  padding-top: 1rem;
+  align-items: center;
+}
+
+.sidebar_item ul {
+  list-style: none;
+  padding: 0px;
+}
+.sidebar_item li {
+  color: white;
+  font-size: 16px;
+  padding: 5px 0px 6px 8px;
+}
+
+.sidebar_item :hover {
+  background-color: rgba(204, 204, 204, 0.815);
+}
+
+/*============body css============*/
