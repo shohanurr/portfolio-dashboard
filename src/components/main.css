@@ -1,8 +1,6 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
-}
-.container-fluid {
-  padding: 0px;
+  padding-left: 275px;
 }
 /*============sidebar css============*/
 
@@ -29,6 +27,11 @@ body {
 }
 
 /* main items card */
+.sidenav {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
 
 .sidebar_item {
   background-color: #353535;
@@ -47,8 +50,11 @@ body {
   padding: 5px 0px 6px 8px;
 }
 
-.sidebar_item :hover {
+.sidebar_item li:hover {
   background-color: rgba(204, 204, 204, 0.815);
 }
 
 /*============body css============*/
+.body-icons {
+  align-items: center;
+}
