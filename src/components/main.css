@@ -1,12 +1,13 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding-left: 275px;
+  background-color: #353535;
 }
 /*============sidebar css============*/
 
 /* profile card */
 .profile {
-  background-color: #353535;
+  background-color: #252525;
   padding-top: 10px;
   padding-left: 10px;
   display: flex;
@@ -34,7 +35,7 @@ body {
 }
 
 .sidebar_item {
-  background-color: #353535;
+  background-color: #252525;
   height: 100vh;
   padding-top: 1rem;
   align-items: center;
@@ -51,10 +52,38 @@ body {
 }
 
 .sidebar_item li:hover {
-  background-color: rgba(204, 204, 204, 0.815);
+  background-color: #2f3032;
+  cursor: pointer;
 }
 
 /*============body css============*/
 .body-icons {
-  align-items: center;
+  padding-top: 45vh;
+}
+.icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background: #2f3032;
+  border-radius: 50%;
+}
+.icon svg {
+  padding: -4px;
+  margin-top: 39px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.icon img {
+  padding: -4px;
+  margin-top: 39px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.icon_lebel {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 5px;
 }
