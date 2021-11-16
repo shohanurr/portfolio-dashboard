@@ -57,8 +57,14 @@ body {
 }
 
 /*============body css============*/
+
+.heading {
+  padding-bottom: 10vh;
+  color: #fff;
+}
+
 .body-icons {
-  padding-top: 45vh;
+  padding-top: 30vh;
 }
 .icon {
   width: 100px;
@@ -86,4 +92,11 @@ body {
   font-size: 14px;
   font-weight: 600;
   padding-top: 5px;
+}
+.main_row {
+  margin: 0px 200px;
+}
+
+.label {
+  color: #fff;
 }
